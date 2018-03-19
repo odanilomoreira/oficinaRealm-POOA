@@ -1,4 +1,4 @@
-package danilo.iff.edu.oficinarealm_pooa;
+package danilo.iff.edu.oficinarealm_pooa.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
