@@ -3,19 +3,32 @@
     package="danilo.iff.edu.oficinarealm_pooa">
 
     <application
+        android:name=".Model.BDConfig"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Oficina Realm"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".View.ActivityPrincipal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".View.PecaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".View.PecaDetalheActivity" />
+        <activity
+            android:name=".View.ServicoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".View.ServicoDetalheActivity" />
+        <activity
+            android:name=".View.ProprietarioActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".View.ProprietarioDetalheActivity"></activity>
     </application>
 
 </manifest>
