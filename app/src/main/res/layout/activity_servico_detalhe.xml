@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="danilo.iff.edu.oficinarealm_pooa.View.ProprietarioDetalheActivity">
+    tools:context="danilo.iff.edu.oficinarealm_pooa.View.ServicoDetalheActivity">
 
     <EditText
-        android:id="@+id/ed_nome_proprietario"
+        android:id="@+id/ed_nome_servico"
         android:layout_width="312dp"
         android:layout_height="48dp"
         android:layout_marginLeft="8dp"
@@ -22,33 +22,33 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/ed_endereco"
+        android:id="@+id/ed_horas"
         android:layout_width="312dp"
         android:layout_height="52dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="5dp"
         android:ems="10"
-        android:hint="Endereço"
+        android:hint="Horas (em minutos)"
         android:inputType="textPersonName"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_nome_proprietario" />
+        app:layout_constraintTop_toBottomOf="@+id/ed_nome_servico" />
 
     <EditText
-        android:id="@+id/ed_telefone"
+        android:id="@+id/ed_mecanico"
         android:layout_width="312dp"
         android:layout_height="66dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="15dp"
         android:ems="10"
-        android:hint="Telefone"
+        android:hint="Mecânico"
         android:inputType="textPersonName"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_endereco" />
+        app:layout_constraintTop_toBottomOf="@+id/ed_horas" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -66,7 +66,7 @@
         app:layout_constraintVertical_bias="0.575">
 
         <Button
-            android:id="@+id/bt_salvar_proprietario"
+            android:id="@+id/bt_salvar_servico"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="25dp"
@@ -74,7 +74,7 @@
             android:text="Salvar" />
 
         <Button
-            android:id="@+id/bt_alterar_proprietario"
+            android:id="@+id/bt_alterar_servico"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
@@ -82,7 +82,7 @@
             android:text="Alterar" />
 
         <Button
-            android:id="@+id/bt_deletar_proprietario"
+            android:id="@+id/bt_deletar_servico"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
