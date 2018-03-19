@@ -1,13 +1,10 @@
-package br.iff.pooa20172.oficinarealm.Model;
+package danilo.iff.edu.oficinarealm_pooa;
 
 import java.io.Serializable;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
-/**
- * Created by higor on 16/03/18.
- */
 
 public class Peca extends RealmObject implements Serializable {
 

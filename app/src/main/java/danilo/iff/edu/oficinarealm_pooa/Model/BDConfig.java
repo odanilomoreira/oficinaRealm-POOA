@@ -1,13 +1,10 @@
-package br.iff.pooa20172.oficinarealm.Model;
+package danilo.iff.edu.oficinarealm_pooa;
 
 import android.app.Application;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
-/**
- * Created by fazenda on 13/03/18.
- */
 
 public class BDConfig extends Application {
 
