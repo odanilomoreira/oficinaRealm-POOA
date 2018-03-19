@@ -1,4 +1,4 @@
-package danilo.iff.edu.oficinarealm_pooa;
+package danilo.iff.edu.oficinarealm_pooa.Model;
 
 import android.app.Application;
 
